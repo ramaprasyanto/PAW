@@ -1,8 +1,9 @@
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
-.w3-sidebar {
+.w3-sidebar{
+  position: absolute;
   z-index: 3;
   width: 250px;
-  top: 43px;
+  top: 75px;
   bottom: 0;
   height: inherit;
 }
@@ -10,4 +11,20 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
 .logo{
   font-family: "Tangerine";
   text-shadow:1px 1px 0 #444;
+}
+.r-button {
+  background-color: #009688;
+  border: none;
+  color: white;
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+table td, table td * {
+  vertical-align: top;
 }
